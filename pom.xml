@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description></description>
-  <url>http://www.tahopen.org</url>
+  <url>http://www.tahopen.org/</url>
 
   <modules>
     <module>editor</module>
@@ -63,7 +63,6 @@
     <scannotation.version>1.0.2</scannotation.version>
     <snmp4j.version>1.9.3d</snmp4j.version>
     <trilead-ssh2.version>1.0.0-build215</trilead-ssh2.version>
-
     <pentaho-connections.version>0.1.0.0-SNAPSHOT</pentaho-connections.version>
     <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
     <pentaho-reporting.version>0.1.0.0-SNAPSHOT</pentaho-reporting.version>
@@ -482,7 +481,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.hitachivantara.karaf.assemblies</groupId>
+      <groupId>org.tahopen.karaf.assemblies</groupId>
       <artifactId>pme</artifactId>
       <version>${pentaho-karaf.version}</version>
       <type>zip</type>
