@@ -1,4 +1,4 @@
-# pentaho-metadata-editor #
+# tahopen-metadata-editor #
 
 ### Project Structure
 
