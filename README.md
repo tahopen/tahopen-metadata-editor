@@ -20,19 +20,6 @@ pentaho-metadata-editor uses the maven framework.
 
 #### Building it
 
-Add repo dependency-notsource code
-```
-wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/jug-lgpl-2.0.0.jar
-
-mvn install:install-file \
-  -Dfile=jug-lgpl-2.0.0.jar \
-  -DgroupId=jug-lgpl \
-  -DartifactId=jug-lgpl \
-  -Dversion=2.0.0 \
-  -Dpackaging=jar
-```
-
-
 This is a maven project, and to build it use the following command
 
 ```
