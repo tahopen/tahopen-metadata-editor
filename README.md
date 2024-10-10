@@ -22,7 +22,7 @@ pentaho-metadata-editor uses the maven framework.
 
 Add repo dependency-notsource code
 ```
-$ wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/jug-lgpl-2.0.0.jar
+wget https://github.com/tahopen/legacy-jars-dependency-notsource/raw/refs/heads/main/jug-lgpl-2.0.0.jar
 
 mvn install:install-file \
   -Dfile=jug-lgpl-2.0.0.jar \
@@ -36,7 +36,7 @@ mvn install:install-file \
 This is a maven project, and to build it use the following command
 
 ```
-$ mvn clean install
+mvn clean install
 ```
 
 Optionally you can specify -Dmaven.test.skip=true to skip the tests (even though
