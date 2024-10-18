@@ -5,18 +5,17 @@
 * **assemblies:** 
 Project distribution archive is produced under this module
 * **editor:** 
-Pentaho Metadata Editor library artifact
+Tahopen Metadata Editor library artifact
 
 How to build
 --------------
 
-pentaho-metadata-editor uses the maven framework.
+tahopen-metadata-editor uses the maven framework.
 
 
 #### Pre-requisites for building the project:
 * Maven, version 3+
 * Java JDK 11
-* This [settings.xml](https://raw.githubusercontent.com/pentaho/maven-parent-poms/master/maven-support-files/settings.xml) in your <user-home>/.m2 directory
 
 #### Building it
 
@@ -29,7 +28,7 @@ mvn clean install
 Optionally you can specify -Dmaven.test.skip=true to skip the tests (even though
 you shouldn't as you know)
 
-The build result will be a Pentaho package located in ```target```.
+The build result will be a Tahopen package located in ```target```.
 
 #### Running the tests
 
