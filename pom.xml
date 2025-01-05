@@ -69,7 +69,7 @@
     <pentaho-metadata.version>0.1.0.0-SNAPSHOT</pentaho-metadata.version>
     <pentaho-vfs-browser.version>0.1.0.0-SNAPSHOT</pentaho-vfs-browser.version>
     <commons-xul.version>0.1.0.0-SNAPSHOT</commons-xul.version>
-    <pentaho-karaf.version>0.1.0.0-SNAPSHOT</pentaho-karaf.version>
+    <pentaho-karaf.version>9.5.0.0-237</pentaho-karaf.version>
     <pentaho-osgi-bundles.version>0.1.0.0-SNAPSHOT</pentaho-osgi-bundles.version>
     <pdi-osgi-bridge.version>0.1.0.0-SNAPSHOT</pdi-osgi-bridge.version>
     <pentaho-metaverse.version>0.1.0.0-SNAPSHOT</pentaho-metaverse.version>
@@ -480,8 +480,9 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <!-- remove for compiler 0.1.0.0-SNAPSHOT no Test!
     <dependency>
-      <groupId>org.tahopen.karaf.assemblies</groupId>
+      <groupId>org.hitachivantara.karaf.assemblies</groupId>
       <artifactId>pme</artifactId>
       <version>${pentaho-karaf.version}</version>
       <type>zip</type>
@@ -492,6 +493,7 @@
         </exclusion>
       </exclusions>
     </dependency>
+    -->
     <dependency>
       <groupId>org.apache.karaf</groupId>
       <artifactId>org.apache.karaf.main</artifactId>

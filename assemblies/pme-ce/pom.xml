@@ -17,8 +17,8 @@
     <pentaho-cassandra-plugin.version>0.1.0.0-SNAPSHOT</pentaho-cassandra-plugin.version>
     <pdi-dataservice-client-plugin.version>0.1.0.0-SNAPSHOT</pdi-dataservice-client-plugin.version>
     <pentaho-metadata.version>0.1.0.0-SNAPSHOT</pentaho-metadata.version>
-    <pentaho-launcher.version>0.1.0.0-SNAPSHOT</pentaho-launcher.version>
-    <oss-licenses.version>0.1.0.0-SNAPSHOT</oss-licenses.version>
+    <pentaho-launcher.version>0.1.0.0</pentaho-launcher.version>
+    <oss-licenses.version>9.4.0.0-SNAPSHOT</oss-licenses.version>
     <commons-database.version>0.1.0.0-SNAPSHOT</commons-database.version>
 
     <pentaho-hadoop-shims.version>0.1.0.0-SNAPSHOT</pentaho-hadoop-shims.version>
@@ -117,7 +117,7 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>org.tahopen</groupId>
+      <groupId>pentaho</groupId>
       <artifactId>oss-licenses</artifactId>
       <version>${oss-licenses.version}</version>
       <scope>runtime</scope>
@@ -172,7 +172,7 @@
                   <artifactId>tahopen-application-launcher</artifactId>
                   <version>${pentaho-launcher.version}</version>
                   <outputDirectory>${project.build.directory}/launcher</outputDirectory>
-                  <destFileName>tahopen-application-launcher.jar</destFileName>
+                  <destFileName>pentaho-application-launcher.jar</destFileName>
                 </artifactItem>
               </artifactItems>
             </configuration>
@@ -291,10 +291,10 @@
                   <type>zip</type>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>org.tahopen</groupId>
+                  <groupId>pentaho</groupId>
                   <artifactId>oss-licenses</artifactId>
                   <version>${oss-licenses.version}</version>
-                  <includes>TahopenMetadata**</includes>
+                  <includes>PentahoMetadata**</includes>
                   <outputDirectory>${project.build.directory}/oss-licenses</outputDirectory>
                   <type>zip</type>
                 </artifactItem>
