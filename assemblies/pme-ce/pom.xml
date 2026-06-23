@@ -12,8 +12,7 @@
   <version>0.1.0.0</version>
   <packaging>pom</packaging>
   <properties>
-    <hsqldb.version>2.3.2</hsqldb.version>
-
+    <hsqldb.version>2.7.1</hsqldb.version>
     <pentaho-cassandra-plugin.version>0.1.0.0</pentaho-cassandra-plugin.version>
     <pdi-dataservice-client-plugin.version>0.1.0.0</pdi-dataservice-client-plugin.version>
     <pentaho-metadata.version>0.1.0.0</pentaho-metadata.version>
